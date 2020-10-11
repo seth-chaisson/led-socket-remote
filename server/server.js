@@ -24,40 +24,40 @@ app.use(express.static("client"));
 io.on("connection", (socket) => {
   socket.on("button", (msg) => {
     switch (msg) {
-      case "on":
+      case 2:
         sendSerial("o");
         break;
-      case "off":
+      case 5:
         sendSerial("f");
         break;
-      case "normal":
+      case 3:
         sendSerial("n");
         break;
-      case "red":
+      case 12:
         sendSerial("r");
         break;
-      case "green":
+      case 13:
         sendSerial("g");
         break;
-      case "blue":
+      case 14:
         sendSerial("b");
         break;
-      case "1":
+      case 15:
         sendSerial("1");
         break;
-      case "2":
+      case 16:
         sendSerial("2");
         break;
-      case "3":
+      case 17:
         sendSerial("3");
         break;
-      case "4":
+      case 18:
         sendSerial("4");
         break;
-      case "5":
+      case 19:
         sendSerial("5");
         break;
-      case "6":
+      case 20:
         sendSerial("6");
         break;
 

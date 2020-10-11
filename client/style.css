@@ -12,9 +12,10 @@ body {
 
 .btn {
   cursor: ponter;
-  height: 16vh;
+  height: 15.5vh;
   width: 31vw;
   background-color: transparent;
   border: none;
+  outline: none;
   /* opacity: 20%; */
 }
